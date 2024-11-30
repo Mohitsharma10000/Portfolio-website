@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="content">
+       
+        <h1>Hi, I am Ram</h1>
+        <br>
+        <h1>Welcome to my portfolio</h2>
+        <h2>Creative Developer | Designer | Problem Solver</p>
+      </div>
+      <div class="image">
+        <img src=https://imgs.search.brave.com/k-YI_6tpyb273NcVK5LiGtL48JQ-dxykH9SR3E97Ra0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzE5Lzg0LzM3/LzM2MF9GXzYxOTg0/MzczNV9KRHhUTmJj/T1FyWGVnRk9JQ0d5/TFpjellZbzFmWkVE/ZS5qcGc alt="picture" height="500">
+      </div>
+    </section>
+
+    <section id="about" class="fade-slide">
+      <h2>About Me</h2>
+      <p>I am a web developer passionate about crafting innovative and engaging websites. My goal is to deliver clean, efficient, and user-friendly experiences.</p>
+    </section>
+
+    <section id="skills" class="fade-slide">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill fade-slide">
+          <h3>HTML</h3>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png" alt="html">
+          <p>Advanced</p>
+        </div>
+        <div class="skill fade-slide">
+          <h3>CSS</h3>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css">
+          <p>Advanced</p>
+        </div>
+        <div class="skill fade-slide">
+          <h3>JavaScript</h3>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAXaZgOP8Dt5J05vGncrxXkY6VJKoi1_lsFw&s" alt="Javascript">
+          <p>Intermediate</p>
+        </div>
+        <div class="skill fade-slide">
+          <h3>React</h3>
+          <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="React">
+          <p>Intermediate</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="fade-slide">
+      <h2>Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item fade-slide">
+          <img src="https://repository-images.githubusercontent.com/354387700/45251700-9718-11eb-95ba-eb3cd844b480"  alt="Project 1">
+          <h3>Project 1</h3>
+        </div>
+        <div class="portfolio-item fade-slide">
+          <img src="https://user-images.githubusercontent.com/67956852/205457548-322d8f32-5cd6-43ba-a6fe-b4f89c65f709.png"  alt="Project 2">
+          <h3>Project 2</h3>
+        </div>
+        <div class="portfolio-item fade-slide">
+          <img src="https://i.ytimg.com/vi/2QSuiiutHZ0/maxresdefault.jpg" alt="Project 3">
+          <h3>Project 3</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="fade-slide">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
